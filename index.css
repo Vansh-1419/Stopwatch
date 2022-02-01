@@ -1,0 +1,35 @@
+body {
+  height: 80vh;
+  background-color: rgb(78, 129, 138);
+  margin-top: 10vh;
+}
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 20vh;
+  height: 10vh;
+  align-items: center;
+  font-size: 5vh;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.heading {
+  font-size: 5rem;
+}
+.time {
+  font-size: 5rem;
+}
